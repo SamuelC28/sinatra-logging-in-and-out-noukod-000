@@ -12,7 +12,7 @@ class ApplicationController < Sinatra::Base
 
   post '/login' do
 
-    erb :account
+    erb :seed
   end
 
   get '/account' do

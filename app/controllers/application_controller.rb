@@ -34,6 +34,4 @@ class ApplicationController < Sinatra::Base
     session.clear
     redirect '/'
   end
-
-
 end
